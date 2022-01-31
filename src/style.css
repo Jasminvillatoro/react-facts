@@ -6,7 +6,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  background-color: #282d35;
 }
+
+/* Navbar Styles  */
 
 nav {
   display: flex;
@@ -30,4 +33,35 @@ nav {
 }
 .react-logo {
   width: 30px;
+  margin: 2px;
+}
+
+/* Main Page Styles */
+
+main {
+  color: #fff;
+  padding: 57px 27px;
+  background: url('./images/reactjs-icon\ 2.png') no-repeat;
+  background-position: right 75%;
+}
+
+.react-facts {
+  margin-top: 40px;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.list-cnt {
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+.list-cnt > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.list-cnt > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
 }
