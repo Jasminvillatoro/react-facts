@@ -39,7 +39,7 @@ nav {
 
 /* Main Page Styles */
 
-main {
+.main {
   color: #fff;
   padding: 57px 27px;
   background: url('./images/reactjs-icon\ 2.png') no-repeat;
