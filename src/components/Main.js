@@ -1,7 +1,7 @@
 import '../style.css';
 const Main = () => {
   return (
-    <main>
+    <main className="main">
       <h1 className="react-facts">Fun facts about React</h1>
       <ul className="list-cnt">
         <li>Was first released in 2013</li>
